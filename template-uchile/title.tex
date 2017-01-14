@@ -1,23 +1,25 @@
-\begin{titlepage}
-\begin{center}
-\begin{tabular}{@{}c@{}}
-	\makebox[0pt][r]{\includegraphics[scale=0.2]{template-uchile/uchile.png}}
-\end{tabular}
-{\renewcommand{\arraystretch}{1.2}%
- \begin{tabular}{c}
- \LARGE UNIVERSIDAD DE CHILE \\
- \LARGE FACULTAD DE CIENCIAS SOCIALES \\
- \LARGE DEPARTAMENTO DE EDUCACIÓN
-\end{tabular}}
-\makeatletter
-\HRule{} \\
-\LARGE \@titulo \\[0.4cm]
-\vspace{3cm}
-\uppercase{\@autor} \\
-\vspace{1cm}
-\@profesor \\
-\makeatother
-\HRule\\[0.1cm]
-Santiago, Chile 2015
-\end{center}
-\end{titlepage}
+\newcommand{\portada}[2]{
+	\begin{titlepage}
+	\begin{center}
+	\begin{tabular}{@{}c@{}}
+		\makebox[0pt][r]{\includegraphics[scale=0.2]{uchile.png}}
+	\end{tabular}
+	\makeatletter
+	{\renewcommand{\arraystretch}{1.2}%
+	 \begin{tabular}{c}
+	 \LARGE UNIVERSIDAD DE CHILE \\
+	 \LARGE FACULTAD DE #1 \\
+	 \LARGE DEPARTAMENTO DE #2 \\ 
+	\end{tabular}}
+	\HRule{} \\
+	\LARGE \@titulo \\[0.4cm]
+	\vspace{3cm}
+	\uppercase{\@autor} \\
+	\vspace{1cm}
+	\@profesor \\
+	\makeatother
+	\HRule\\[0.1cm]
+	Santiago, Chile 2015
+	\end{center}
+	\end{titlepage}
+}

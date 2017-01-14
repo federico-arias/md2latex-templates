@@ -8,7 +8,7 @@
 \RequirePackage[style=spanish]{csquotes}
 \RequirePackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
 \RequirePackage{fancyhdr}
-% \RequirePackage{fancyvrb}
+\RequirePackage{fancyvrb}
 \RequirePackage{helvet}
 \RequirePackage{color}
 \RequirePackage{booktabs}
@@ -40,6 +40,7 @@
 
 % New commands
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\input{title.tex}
 
 \setcounter{secnumdepth}{2}
 

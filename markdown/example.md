@@ -1,6 +1,5 @@
 
-This is a subheading
-===================
+# This is a subheading
 
 This is another paragraph.
 
@@ -52,7 +51,7 @@ Here is a footnote reference,[^1] and another.[^longnote]
 [^longnote]: Here's one with multiple blocks.
 
     Subsequent paragraphs are indented to show that they
-belong to the previous footnote.
+	belong to the previous footnote.
 
         { some.code }
 
@@ -60,7 +59,6 @@ belong to the previous footnote.
     line.  In this way, multi-paragraph footnotes work like
     multi-paragraph list items.
 
-This is a heading
------------------
+## This is a heading
 
 This is a paragraph \cite{zumbach1999assessment} with raw latex.
