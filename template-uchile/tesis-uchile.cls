@@ -23,6 +23,7 @@
 
 \DeclareLanguageMapping{spanish}{spanish-apa}
 
+\def\input@path{{template-uchile/}}
 %\makeatletter
 \renewcommand\cftchappresnum{Capítulo}
 %\makeatother
